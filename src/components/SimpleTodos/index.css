@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* text-align: center; */
+  width: 90vw;
+  margin-left: 45px;
+  padding: 30px;
+}
+
+.todo-heading {
+  color: #ffc2a0;
+  font-weight: bold;
+  text-align: center;
+}
