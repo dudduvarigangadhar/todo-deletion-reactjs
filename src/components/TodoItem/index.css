@@ -1,4 +1,5 @@
 /* Write your CSS here */
+/* Write your CSS here */
 .each-todo {
   font-family: 'Roboto';
   font-weight: 500px;
@@ -22,4 +23,8 @@
   height: 40px;
   margin-top: 10px;
   margin-right: 100px;
+}
+
+.list-items {
+  list-style-type: none;
 }
