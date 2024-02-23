@@ -1,17 +1,23 @@
-// Write your code here
-import SimpleTodos from '../SimpleTodos'
 import './index.css'
 
 const TodoItem = props => {
-  const {name} = props
+  const {todo, onDeleteTodo} = props
+  const {title, id} = todo
+
+  const onDelete = () => {
+    // console.log('on Delete clicked')
+    onDeleteTodo(id)
+  }
 
   return (
-    <div>
+    <li className="list-items">
       <div className="each-todo-container">
-        <p className="each-todo">{name}</p>
-        <button className="button">Delete</button>
+        <p className="each-todo">{title}</p>
+        <button className="button" type="button" onClick={onDelete}>
+          Delete
+        </button>
       </div>
-    </div>
+    </li>
   )
 }
 
